@@ -31,6 +31,10 @@ namespace Story
             Console.WriteLine("{0}, seems like your army is in a {1} mood to attack earth today", KingRobot._name, robotIntern._mood);
             Console.ReadKey();
 
+            robotIntern.theEnd();
+       
+            Console.ReadKey();
+
 
             
             

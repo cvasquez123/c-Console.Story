@@ -14,7 +14,11 @@ namespace Story
             _mood = mood;
             _strength = strength;
             
+        }
 
+        public void theEnd()
+        {
+            Console.WriteLine("This is the end of my story");
         }
     }
 }
